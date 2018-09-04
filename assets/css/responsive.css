@@ -1,0 +1,39 @@
+@media (max-width: 768px){
+	#main {
+	    overflow: hidden;
+	    position: relative;
+	}
+}
+
+@media (max-width: 575px){
+	.service-area:after, 
+	.service-area:before{
+		display: none;
+	}
+	.service-box:after{
+		display: block;
+	}
+}
+
+@media (max-width: 425px){
+	section {
+	    overflow:  hidden;
+	}
+	.box-img {
+	    overflow:  hidden;
+	}
+	.box-text {
+	    margin-top: 130px;
+	}
+	.signup-area form input {
+	    margin-right: 15px !important;
+	    margin-left: 15px;
+	}
+}
+
+@media (max-width: 375px){
+	section.banner-section a.btn {
+	    margin-right: 0 !important;
+	    margin-bottom: 30px;
+	}
+}
